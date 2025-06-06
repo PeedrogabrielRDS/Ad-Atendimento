@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Memory Thread</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="shortcut icon" href="./img/Fileless_malware_hero.webp" type="image/x-icon">
+    <style>
+
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <div id="quadrado"><a href="index.html"><img src="./img/Fileless_malware_hero.webp" alt="Logoheader"></a></div>
+            <h1>Fileless Malware</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">início</a></li>
+                    <li><a href="#assuntos">assuntos</a></li>
+                    <li><a href="#">contato</a></li>
+                </ul>
+            </nav>
+            <input type="text" id="search_box" placeholder="O que procura?">
+        </header>
+        <section>
+            <div id="redirecionamento">
+                <a href="#art1">O que é Fileless Malware</a>
+                <a href="#art2">Como Funciona e se Propaga</a>
+                <a href="#art3">Diferenças em Relação ao Malware Tradicional</a>
+                <a href="#art4">Casos e Exemplos de Ataques</a>
+                <a href="#art5">Riscos e Consequências</a>
+                <a href="#art6">Prevenção e Boas Práticas de Segurança</a>
+            </div>
+            <article class="articulo">
+                <div class="inf" id="art1">
+                    <h1 class="titulo">O que é Fileless Malware</h1>
+                    <p class="paragrafo">Fileless malware, ou malware sem arquivo, é um tipo de ameaça cibernética que não depende da criação ou instalação de arquivos no disco rígido da vítima. Em vez disso, ele opera inteiramente na memória do sistema, utilizando ferramentas legítimas já presentes no sistema operacional, como o PowerShell e o WMI (Windows Management Instrumentation). Essa abordagem permite que o malware evite a detecção por antivírus tradicionais, tornando-o particularmente perigoso e difícil de eliminar.</p>
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/PhuLqXjsOcY?si=AB-YKDBVRTh2iwuf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="iframe"></iframe>
+            </article>
+            <article class="articulo">
+                <div class="inf" id="art2">
+                    <h1 class="titulo">Como Funciona e se Propaga</h1>
+                    <p class="paragrafo">Diferente de malwares convencionais que exigem o download de arquivos executáveis, o fileless malware geralmente se infiltra por meio de técnicas de engenharia social, como e-mails de phishing com scripts maliciosos. Ao ser executado, o código é carregado diretamente na memória RAM, onde permanece ativo sem deixar rastros evidentes no disco. Essa técnica permite que ele se esconda melhor e atue de forma persistente, mesmo em sistemas aparentemente protegidos.</p>
+                </div>
+                <img src="./img/Blogs_Social_Sept_Week3_FilelessMalware_Diagram_Pratum_20210908_RXX-05-09.webp" alt="">
+            </article>
+            <article class="articulo">
+                <div class="inf" id="art3">
+                    <h1 class="titulo">Diferenças em Relação ao Malware Tradicional</h1>
+                    <p class="paragrafo">Enquanto o malware tradicional instala arquivos maliciosos no sistema, o fileless age de maneira mais sutil, aproveitando comandos e funcionalidades já existentes. Isso o torna menos visível e mais resistente a sistemas de proteção baseados em assinaturas. Além disso, seu uso de componentes legítimos dificulta a distinção entre atividades normais e comportamentos maliciosos, o que desafia as defesas convencionais.</p>
+                </div>
+            </article>
+            <article class="articulo">
+                <div class="inf" id="art4">
+                    <h1 class="titulo">Casos e Exemplos de Ataques</h1>
+                    <p class="paragrafo">Diversos ataques notáveis nos últimos anos utilizaram técnicas fileless. Um exemplo é o PowerGhost, um malware que se espalhou em redes corporativas usando PowerShell para minerar criptomoedas sem ser detectado. Outro caso envolve o uso do Cobalt Strike, uma ferramenta legítima de testes de segurança que foi adaptada para executar comandos maliciosos em memória. Esses exemplos mostram como o fileless malware tem sido aproveitado tanto por cibercriminosos quanto por grupos avançados de espionagem.</p>
+                </div>
+                <img src="./img/istockphoto-898222360-612x612.jpg" alt="">
+            </article>
+            <article class="articulo">
+                <div class="inf" id="art5">
+                    <h1 class="titulo">Riscos e Consequências</h1>
+                    <p class="paragrafo">As implicações de um ataque fileless podem ser graves. Como esse tipo de malware é difícil de detectar, ele pode permanecer ativo por longos períodos, permitindo o roubo de dados sensíveis, o comprometimento de redes inteiras e até mesmo o sequestro de sistemas inteiros sem levantar alertas imediatos. Em ambientes corporativos, isso pode significar prejuízos financeiros consideráveis, perda de confiança e danos à reputação.</p>
+                </div>
+            </article>
+            <article class="articulo">
+                <div class="inf" id="art6">
+                    <h1 class="titulo">Prevenção e Boas Práticas de Segurança</h1>
+                    <p class="paragrafo">Embora não exista uma solução única contra fileless malware, é possível mitigar os riscos com uma abordagem em camadas. Manter o sistema operacional atualizado, limitar o uso de scripts automatizados e monitorar continuamente o comportamento do sistema são medidas fundamentais. Além disso, investir em soluções de segurança que utilizam análise comportamental, e treinar os usuários para identificar tentativas de phishing, são estratégias eficazes para reduzir a exposição a esse tipo de ameaça.</p>
+                </div>
+                <img src="./img/1683228316823.jpeg" alt="">
+            </article>
+        </section>
+        <footer>
+            <div id="inf1">
+                <p><strong>Fileless Malware:</strong> ameaça sem arquivos, mais difícil de detectar e combater.</p>
+                <p>Referências: MITRE ATT&CK, Kaspersky, CrowdStrike</p>
+                <p>Autor: Pedro Gabriel e Yago Delbone | 1B TI</p>
+            </div>
+            <div id="inf2">
+                <p>Contato: 41471@raphaeldisanto.com.br | <a href="https://www.linkedin.com/in/pedro-gabriel-santos-571ab0362/">LinkedIn</a></p>
+                <p><small>Este site é apenas para fins educacionais.</small></p>
+                <a href="index.html">Voltar ao topo</a>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
